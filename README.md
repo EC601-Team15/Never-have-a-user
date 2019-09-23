@@ -14,3 +14,35 @@ First, the effects of transfer windows.  We signed a series of famous players la
 Second, the experience of the service provided by the stadium.  As an international club, many fans take a long trip and spend a lot of money to watch a game. Are they served with respect? Are they satisfied with the experience they have? It can decide if they will come again or recommend it to others. These feedbacks can also be found on Twitter. I need to obtain the ratio of the negative comments and conclude the aspects need to be improved.
 
 Third, fans’ satisfaction of matches. After a loss, how do they react on the Internet? Do they like the performance of the team or a specific player? Besides, Juventus decided to change the schedule of match time from evening to afternoon, in order to attract more Asian fans. Does the decision attract more Asian fans? However, the local fans’ reactions are also important. Do they feel being ignored? I have to know the public opinions to review our decisions. 
+
+# Architecture
+******************************
+*                            *
+*       Twitter              *
+*                            *
+******************************
+  |              ^         
+  |  Data        | Commands 
+  \/             | 
+******************************
+*                            *
+*        Twitter API         *
+*                            *
+******************************
+  |              ^         
+  |  Tweets      | Commands(Tweepy)
+  \/             | 
+****************************************  
+*                                      *
+*            Local Server              *
+*                                      * 
+****************************************
+  |                      ^           
+  |                      |           
+  |  Tweets              | Sentiment Analyze    
+  \/                     |           
+****************************************  
+*                                      *
+*            Google API                *
+*                                      * 
+****************************************
