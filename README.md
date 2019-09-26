@@ -1,3 +1,5 @@
+# Sprint 1
+👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇
 # Club Helper
 Hi, the names of developers are Shuwei Li and Yumeng pan. This project is actually an assignment of EC601 of Boston University. It will be used to analyze the sentiment content of the target users, in order to obtain the feedback of customers and improve the service of providers. Our current idea is to analyze the Tweets of fans of a specific football club, in order to help the club review their decisions, strategy and service.
 
