@@ -24,6 +24,12 @@ The architecture of our project is uploaded as a file.
 
 Our users need to give our product a hashtag, such as "#AtleticoJuventus", which is used when fans discuss the match Juventus Vs. Atletico Madrid. Then, the hashtag will be processed by the tweepy module, using tweepy to obtain any tweets contain this tag. After that, these tweets will be sent to the Google Natural Language API to analyze the sentiment scores. In the end, the scores will be processed by the visualized module in order to display results.
 
+### How to run this code
+To get result, excute final2.py. You'll get a graph about the sentiments of a certain #hashtag or words.  
+filepath is used to archieve the tweets get by twitter API, filepath_res is used to archieve all sentiments score of tweets.  
+querys is where to put in the query words (aka. keywords) you are interested in , and the Twitter API will extract tweets that include those query words.    
+time is the start date of the tweets that has been created.    
+
 ## Test Result
 ![Image of Shuweili](https://github.com/EC601-Team15/Never-have-a-user/blob/master/Figure_1.png?raw=true)
 ![Image of Shuweili](https://github.com/EC601-Team15/Never-have-a-user/blob/master/result_example.png?raw=true)
