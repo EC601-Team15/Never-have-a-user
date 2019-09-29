@@ -1,0 +1,26 @@
+import matplotlib.pyplot as plt
+import json
+import numpy as np
+
+filename='./hongkongsentiment.json'
+
+with open(filename) as file_obj:
+    data = json.load(file_obj)
+
+score = np.zeros(len(data),dtype=int)
+
+for i,value in enumerate(data.values()):
+    score[i] = value*10
+
+x = score
+# the histogram of the data
+n, bins, patches = plt.hist(x, 21, density=True, facecolor='g', alpha=0.99, histtype= 'stepfilled')
+
+
+plt.xlabel('sentiment')
+plt.ylabel('Probability')
+plt.title('Sentiment of Hong Kong Protest')
+plt.xlim(-10, 10)
+plt.ylim(0, 0.4)
+plt.grid(True)
+plt.show()
