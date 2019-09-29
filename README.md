@@ -26,8 +26,13 @@ Our users need to give our product a hashtag, such as "#AtleticoJuventus", which
 
 ## Lessons Learned
 ###What you liked doing?
-I(Shuwei Li)feel like finding users' requirements, and design system architecture. 
+Shuwei Li:
+I feel like finding users' requirements, and design system architecture. 
 
 ###What you could have done better?
-I(Shuwei Li)
+Shuwei Li:
+I think, in order to analyze the fans comments of a match, we should identify who is the fans of our team. Because when we lose a match, our fans may give negative comments while rivals' fans give posstive comments. However, it is very difficult to identify which shirt is a user in. 
 
+###What you will avoid in the future?
+Shuwei Li:
+I will avoid using wrong data structure and compile every time I finish a module.
