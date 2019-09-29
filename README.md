@@ -30,18 +30,18 @@ Our users need to give our product a hashtag, such as "#AtleticoJuventus", which
 
 
 ## Lessons Learned
-###What you liked doing?
-Shuwei Li:
-I feel like finding users' requirements, and design system architecture. 
-Yumeng Pan:
-I find discussing the idea of whole project with teammates, friends is enjoyable, and working together satisifing users' needs can be stressing and fulfilling at the same time.
-###What you could have done better?
-Shuwei Li:
-I think, in order to analyze the fans comments of a match, we should identify who is the fans of our team. Because when we lose a match, our fans may give negative comments while rivals' fans give posstive comments. However, it is very difficult to identify which shirt is a user in. 
-Yumeng Pan:
-I would like to reduce the redundance of the code, improve efficiency and make functions more modular.
-###What you will avoid in the future?
-Shuwei Li:
-I will avoid using wrong data structure and compile every time I finish a module.
-Yumeng Pan:
-I'll try to be more time-sensitive, following the sprints and make things done ahead of schedule.
+###What you liked doing?  
+Shuwei Li:  
+I feel like finding users' requirements, and design system architecture.   
+Yumeng Pan:  
+I find discussing the idea of whole project with teammates, friends is enjoyable, and working together satisifing users' needs can be stressing and fulfilling at the same time.    
+###What you could have done better?  
+Shuwei Li:  
+I think, in order to analyze the fans comments of a match, we should identify who is the fans of our team. Because when we lose a match, our fans may give negative comments while rivals' fans give posstive comments. However, it is very difficult to identify which shirt is a user in.   
+Yumeng Pan:  
+I would like to reduce the redundance of the code, improve efficiency and make functions more modular.  
+###What you will avoid in the future?  
+Shuwei Li:  
+I will avoid using wrong data structure and compile every time I finish a module.  
+Yumeng Pan:  
+I'll try to be more time-sensitive, following the sprints and make things done ahead of schedule.  
