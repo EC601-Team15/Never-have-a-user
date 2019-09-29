@@ -24,3 +24,10 @@ The architecture of our project is uploaded as a file.
 
 Our users need to give our product a hashtag, such as "#AtleticoJuventus", which is used when fans discuss the match Juventus Vs. Atletico Madrid. Then, the hashtag will be processed by the tweepy module, using tweepy to obtain any tweets contain this tag. After that, these tweets will be sent to the Google Natural Language API to analyze the sentiment scores. In the end, the scores will be processed by the visualized module in order to display results.
 
+## Lessons Learned
+###What you liked doing?
+I(Shuwei Li)feel like finding users' requirements, and design system architecture. 
+
+###What you could have done better?
+I(Shuwei Li)
+
